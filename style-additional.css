@@ -1,0 +1,91 @@
+/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+.site {
+	max-width: 100%;
+	overflow: hidden;
+}
+
+.page-id-13 .single-featured-image-header img {
+	display: none;
+}
+
+.navigation-top {
+	font-size: .85rem !important;
+}
+
+.navigation-top .wrap {
+	padding: .55em 1em;
+}
+
+/*move sponsors above footer*/
+@media screen and (max-width: 47.999em) {
+	section#text-4 {
+		background-color: white;
+		margin: auto -20% 10%;
+		padding: 10% 20% 15%;
+		border-bottom: 3px solid #000;
+	}
+}
+
+@media screen and (min-width: 48em) {
+	#colophon {
+		margin-top: 440px;
+	}
+	
+	#text-4 {
+		position: relative;
+		top: -625px;
+		width: 1000px;
+		padding: 2em;
+	}
+	
+	#text-4 .logo {
+		box-shadow: none;
+		max-width: 300px;
+		float: left;
+		padding-right: 2em;
+	}
+	
+	.widget-column .footer-widget-1 {
+		position: relative;
+	}
+	
+	.union {
+		margin-bottom: 50px;
+	}
+	
+	.printers-alley {
+		margin-bottom: 30px;
+	}
+	
+	#image-5 {
+		position: relative;
+		top: -220px;
+	}
+}
+
+.widget a img, 
+.widget a, 
+.site-footer .widget-area a,
+.widget a img, 
+.widget a:hover, 
+.site-footer .widget-area a:hover {
+	box-shadow: none;
+}
+
+.sponsor-level h4 {
+	border-bottom: 1px solid #000;
+	margin-bottom: 15px;
+	padding-bottom: 5px;
+}
+
+.sponsor-logo:last-child {
+	margin-bottom: 25px;
+}
+
+.single-wcb_sponsor .single-featured-image-header img {
+	padding: 2em;
+}
