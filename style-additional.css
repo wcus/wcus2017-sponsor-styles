@@ -29,18 +29,14 @@ Click the help icon above to learn more.
 		border-bottom: 3px solid #000;
 	}
 }
-
-@media screen and (min-width: 48em) {
-	#colophon {
-		margin-top: 440px;
-	}
-	
+@media screen and (min-width: 48em) {	
 	#text-4 {
 		position: relative;
-		top: -625px;
+		top: -0x;
 		width: 1000px;
 		padding: 2em;
 	}
+}
 	
 	#text-4 .logo {
 		box-shadow: none;
@@ -65,7 +61,6 @@ Click the help icon above to learn more.
 		position: relative;
 		top: -220px;
 	}
-}
 
 .widget a img, 
 .widget a, 
@@ -89,3 +84,19 @@ Click the help icon above to learn more.
 .single-wcb_sponsor .single-featured-image-header img {
 	padding: 2em;
 }
+
+/*CSS for full width Sponsor Area 20170801*/
+.site-footer .widget-column.footer-widget-1 {
+ float: left;
+ width: 100%;
+}
+
+#colophon {
+		margin-top: 40px;
+		background-color: #FFFFFF;
+	}
+
+.site-footer .widget-column.footer-widget-2 {
+    float: left;
+    width: 100%;
+	}
